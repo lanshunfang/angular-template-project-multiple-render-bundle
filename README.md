@@ -24,11 +24,13 @@
 
 - Run `npm run serve-azure` for a dev server. 
 - Navigate to `http://localhost:4200/`.
+![](doc/images/2020-10-31-16-16-19.png)
 
 ### Develop GoogleCloud Renderer
 
 - Run `npm run serve-googlecloud` for a dev server. 
 - Navigate to `http://localhost:4200/`.
+![](doc/images/2020-10-31-16-15-36.png)
 
 ## Build
 
@@ -36,11 +38,15 @@
 
 - Run `npm run build-azure`
 - Check `dist/my-first-project` and you will find only CSS/JS/HTML code of Azure
+  - Only Azure renderer code: ![Only Azure](doc/images/2020-10-31-16-18-11.png)
+  - No GoogleCloud renderer code: ![](doc/images/2020-10-31-16-18-59.png)
+
 
 ### Build GoogleCloud Renderer in production
 
 - Run `npm run build-googlecloud`
 - Check `dist/my-first-project` and you will find only CSS/JS/HTML code of GoogleCloud
+  - Only GoogleCloud render code this time ![Only GoogleCloud render code this time](doc/images/2020-10-31-16-17-16.png)
 
 ## Running unit tests
 
