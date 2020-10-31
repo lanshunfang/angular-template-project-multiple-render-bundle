@@ -4,7 +4,11 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
+    "start-azure": "ng serve --configuration=serve-azure",
+    "start-googlecloud": "ng serve --configuration=serve-googlecloud",
     "build": "ng build",
+    "build-azure": "ng build --configuration=production-azure",
+    "build-googlecloud": "ng build --configuration=production-googlecloud",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"

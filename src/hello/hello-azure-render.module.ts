@@ -1,17 +1,17 @@
+
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
-import { AppComponent } from './app.component';
-import {HelloModule} from 'src/hello/hello.module';
+import { HelloRenderComponent } from './hello-azure-render/hello-render.component';
+
 @NgModule({
   declarations: [
-    AppComponent
+    HelloRenderComponent
   ],
   imports: [
-    HelloModule,
     BrowserModule
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  exports: [HelloRenderComponent]
 })
-export class AppModule { }
+export class HelloAzureRenderModule { }

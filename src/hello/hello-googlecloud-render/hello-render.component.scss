@@ -1,0 +1,7 @@
+:host {
+  color: red;
+  @if true {
+    border-radius: 2;
+    --ms-helloGoogleCloud: 'helloGoogleCloud';
+  }
+}

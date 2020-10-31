@@ -1,7 +1,7 @@
 :host {
   color: red;
-  @if false {
+  @if true {
     border-radius: 2;
-    --ms-nice: 'Nice';
+    --ms-helloAzure: 'helloAzure';
   }
 }
